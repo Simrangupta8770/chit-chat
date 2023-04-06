@@ -1,0 +1,51 @@
+.messages {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    bottom :35px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+  .emoji {
+
+    position:absolute;
+    bottom:3px;
+      left:0;
+    
+  }
+  .emoji svg {
+      font-size: 1.5rem;
+      color:#38B2AC;
+      cursor: pointer;
+      position:absolute;
+      bottom:3px;
+      left:0;
+      z-index:1;
+  }
+    .emoji .EmojiPickerReact {
+      position: absolute;
+      bottom: 30px;
+      background-color: #080420;
+      box-shadow: 0 5px 10px #9a86f3;
+      border-color: #9a86f3;
+    }
+
+    .emoji .emoji-picker-react .emoji-scroll-wrapper::-webkit-scrollbar {
+      background-color: #080420;
+      width: 5px;
+      /* &-thumb {
+        background-color: #9a86f3;
+      } */
+    }
+    .emoji .emoji-picker-react  .emoji-categories button{
+     
+        filter: contrast(0);
+      
+    }
+    .emoji .emoji-picker-react .emoji-search {
+      background-color: transparent;
+      border-color: #9a86f3;
+    }
+    .emoji .emoji-picker-react .emoji-group:before {
+      background-color: #080420;
+    } 
